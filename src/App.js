@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import './App.css';
 import Coin from './Coin';
+import './App.css'
 
 function App() {
   const [coins, setCoins] = useState([])
@@ -26,7 +26,7 @@ function App() {
   return (
     <div className='coin-app'>
       <div className='coin-search'>
-        <h1 className='coin-text'>Search a currency</h1>
+        <h1 className='coin-text'>Search currency</h1>
         <form>
           <input type='text'
             placeholder='Search'
